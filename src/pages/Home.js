@@ -1,23 +1,23 @@
 import React from 'react'
-import { useState } from 'react'
-
-/* function to check if mouse is hovering over button */
-function useHover() {
-  const [hovering, setHovering] = useState(false)
-  const onHoverProps = {
-    onMouseEnter: () => setHovering(true),
-    onMouseLeave: () => setHovering(false),
-  }
-  return [hovering, onHoverProps]
-}
 
 const Home = () => {
 
+  const Circles = () => (
+    <div className="bg">
+        <div className="blobs">
+            <div className="blob" />
+        </div>
+    </div>
+  );
+
   return (
     <>
-      <h1>
-        Hello and welcome to my site!
-      </h1>
+      <div className="flex flex-col items-center justify-center px-4 sm:px024">
+        <Circles />
+        <div className="flex items-center h-screen justify-center text-center align-cen">
+          Hello, my name is Jason.
+        </div>
+      </div>
     </>
   )
 }
