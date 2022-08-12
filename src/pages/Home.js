@@ -17,6 +17,15 @@ const Home = () => {
         <div className="flex items-center h-screen justify-center text-center align-cen">
           Hello, my name is Jason.
         </div>
+        <div className="flex items-center h-screen justify-center text-center align-cen">
+          Hello, my name is Jason.
+        </div>
+        <div className="flex items-center h-screen justify-center text-center align-cen">
+          Hello, my name is Jason.
+        </div>
+        <div className="flex items-center h-screen justify-center text-center align-cen">
+          Hello, my name is Jason.
+        </div>
       </div>
     </>
   )
