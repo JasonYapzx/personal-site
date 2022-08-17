@@ -56,10 +56,10 @@ export default function NavBar() {
                                 <a href="/">me</a>
                             </li>
                             <li className="text-gray-600" class="link link-underline link-underline-black text-black">
-                                <a href="/">experience</a>
+                                <a href="/experience">experience</a>
                             </li>
                             <li className="text-gray-600" class="link link-underline link-underline-black text-black">
-                                <a href="/">projects</a>
+                                <a href="/projects">projects</a>
                             </li>
                             <li className="text-gray-600" class="link link-underline link-underline-black text-black">
                                 <a href="/">contacts</a>
